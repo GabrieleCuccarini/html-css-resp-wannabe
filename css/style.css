@@ -128,14 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 1160px) {
 
     .site-header, header .text-center {
         width: 100%;
     }
 
     .lessons .col img, .steps .col img {
-        max-height: 200px;
+        max-height: 220px;
         height: auto;
         aspect-ratio: 1.48;
     }
@@ -144,8 +144,16 @@ img {
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .lessons .col img, .steps .col img {
+        max-height: 200px;
+    }
+
     body {
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
